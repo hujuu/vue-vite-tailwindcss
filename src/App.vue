@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import DataComponent from './components/DataComponent.vue'
+
 </script>
 
 <template>
@@ -15,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+  <DataComponent />
 </template>
 
 <style scoped>
